@@ -4,7 +4,7 @@
 <p align="left">
 <a href="https://twitter.com/udaychimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="udaychimpiri" height="30" width="40" /></a>
 <a href="https://kaggle.com/chimpiriudaykiran" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="chimpiriudaykiran" height="30" width="40" /></a>
-<a href="https://instagram.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
+<a href="https://instagram.com/uday_kiran_chimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 </p>
 
