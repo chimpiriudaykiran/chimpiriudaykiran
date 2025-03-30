@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d7fbed8-9905-4883-afeb-57fac39cc9aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/contact-form-app/app/api/contact/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact-form-app/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/app/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/app/api/send-email/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/app/experience/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/app/projects/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Experience.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Hero.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/ReachOutForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/components/Sidebar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/data/portfolioData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portfolio/public/Resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/documents/Uday Kiran Chimpiri.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/profile.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="3d7fbed8-9905-4883-afeb-57fac39cc9aa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743136006043</updated>
       <workItem from="1743136008355" duration="14112000" />
-      <workItem from="1743297069171" duration="7411000" />
+      <workItem from="1743297069171" duration="8145000" />
     </task>
     <servers />
   </component>
