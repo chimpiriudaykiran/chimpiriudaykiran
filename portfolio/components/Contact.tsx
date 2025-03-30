@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { portfolioData } from "@/data/portfolioData";
 import ReachOutForm from "@/components/ReachOutForm";
 
 const Contact: React.FC = () => (

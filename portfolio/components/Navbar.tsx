@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolioData";
+import Link from "next/link"; // Added missing import
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +11,9 @@ const Navbar: React.FC = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-base-100 sticky top-0 z-50 shadow-lg">
             <div className="container mx-auto flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold text-primary">{portfolioData.name}</a>
+                <Link href="/" className="text-2xl font-bold text-primary">
+                    {portfolioData.name}
+                </Link>
                 <button className="btn btn-ghost lg:hidden" onClick={() => setIsOpen(!isOpen)}>
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
@@ -23,11 +26,13 @@ const Navbar: React.FC = () => {
                     transition={{ duration: 0.3 }}
                 >
                     {["Home", "About", "Experience", "Projects", "Contact"].map((item) => (
-                        <a key={item} href={`/${item.toLowerCase()}`} className="btn btn-ghost mx-2">
+                        <Link key={item} href={`/${item.toLowerCase()}`} className="btn btn-ghost mx-2">
                             {item}
-                        </a>
+                        </Link>
                     ))}
-                    <a href="/resume.pdf" download className="btn btn-primary mx-2">Resume</a>
+                    <a href="/Resume.pdf" download className="btn btn-primary mx-2">
+                        Resume
+                    </a>
                 </motion.div>
             </div>
         </nav>
