@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7fbed8-9905-4883-afeb-57fac39cc9aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/app/about/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/app/contact/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/app/experience/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/app/projects/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/components/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/components/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/components/ReachOutForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/components/ReachOutForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743136006043</updated>
       <workItem from="1743136008355" duration="14112000" />
-      <workItem from="1743297069171" duration="9797000" />
+      <workItem from="1743297069171" duration="10186000" />
     </task>
     <servers />
   </component>

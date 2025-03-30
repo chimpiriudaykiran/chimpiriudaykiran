@@ -188,7 +188,7 @@ const ReachOutForm: React.FC = () => {
 
                 {submitStatus === "success" && (
                     <div className="alert alert-success mt-4">
-                        <span>Your message was sent successfully! I&aposll get back to you soon.</span>
+                        <span>Your message was sent successfully! I&apos;ll get back to you soon.</span>
                     </div>
                 )}
 
