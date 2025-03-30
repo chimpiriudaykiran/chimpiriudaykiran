@@ -41,7 +41,7 @@ export async function POST(request: Request): Promise<NextResponse> {
         const adminEmail = new brevo.SendSmtpEmail();
         adminEmail.sender = { email: process.env.SENDER_EMAIL };
         adminEmail.to = [{ email: process.env.ADMIN_EMAIL }];
-        adminEmail.subject = "New Contact Request";
+        adminEmail.subject = `${name}New Contact Request`;
         adminEmail.textContent = `
       New Contact Request:
       Name: ${name}
