@@ -14,14 +14,14 @@ const Experience: React.FC = () => (
             >
                 Experience
             </motion.h2>
-            <div className="space-y-10">
+            <div className="flex flex-col content-center space-y-10 justify-center w-full items-center">
                 {portfolioData.experience.map((exp: ExperienceType, index: number) => (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.5, delay: index * 0.2 }}
-                        className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow"
+                        className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow w-3/5"
                     >
                         <div className="card-body">
                             <h3 className="card-title text-primary">{exp.role}</h3>
