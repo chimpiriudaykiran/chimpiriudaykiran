@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Uday Kiran Chimpiri - Portfolio",
-  description: "Full Stack Developer Portfolio",
+  description: "AI & Full Stack Developer Portfolio",
 };
 
 export default function RootLayout({
