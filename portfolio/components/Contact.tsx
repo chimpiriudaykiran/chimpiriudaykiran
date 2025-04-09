@@ -19,22 +19,6 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="py-20 bg-base-200">
-      <div 
-        className="badge-base LI-profile-badge" 
-        data-locale="en_US" 
-        data-size="large" 
-        data-theme="dark" 
-        data-type="HORIZONTAL" 
-        data-vanity="uday-kiran-chimpiri" 
-        data-version="v1"
-      >
-        <a 
-          className="badge-base__link LI-simple-link" 
-          href="https://www.linkedin.com/in/uday-kiran-chimpiri?trk=profile-badge"
-        >
-          Uday Kiran Chimpiri
-        </a>
-      </div>
    
       <div className="mt-10">                             
         <ReachOutForm />
