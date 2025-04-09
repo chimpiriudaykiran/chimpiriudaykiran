@@ -21,7 +21,7 @@ export default function Knobs() {
 
       {/* Expandable Panel */}
       {isOpen && (
-        <div className="absolute bottom-14 right-4 p-4 shadow-md rounded-lg w-48 border bg-white">
+        <div className="absolute bottom-14 right-4 p-4 shadow-md rounded-lg w-48 border">
           <h3 className="text-lg font-semibold">Settings</h3>
 
           {/* Theme Selector */}

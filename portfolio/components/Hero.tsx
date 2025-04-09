@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
     offset: ["start start", "end start"],
   });
 
-  const backgroundY = useTransform(scrollY, [0, 500], [0, 150]);
+  // const backgroundY = useTransform(scrollY, [0, 500], [0, 150]);
   const textY = useTransform(scrollY, [0, 500], [0, 50]);
 
   return (
