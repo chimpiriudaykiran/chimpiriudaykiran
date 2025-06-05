@@ -93,7 +93,7 @@
 - 💼 [LinkedIn](https://linkedin.com/in/uday-kiran-chimpiri)
 - 💻 [GitHub](https://github.com/chimpiriudaykiran)
 - 📧 udaykiranchimpiri@gmail.com
-- 📄 [Resume](https://github.com/chimpiriudaykiran/chimpiriudaykiran/blob/main/Uday%20Kiran%20Chimpiri%20-%20AI.pdf)
+- 📄 [Resume]([https://github.com/chimpiriudaykiran/chimpiriudaykiran/blob/main/Uday%20Kiran%20Chimpiri%20-%20AI.pdf](https://www.codewithuday.co/Resume.pdf))
 
 ---
 
