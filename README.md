@@ -83,6 +83,7 @@
 ### 🧠 LeetCode
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/udaykiranchimpiri?theme=dark&font=Acme&ext=heatmap)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs?username=chimpiriudaykiran&show_icons=true&locale=en&layout=compact)
 
 ---
 
@@ -120,8 +121,6 @@
 <a href="https://www.hackerrank.com/darlinguday" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="darlinguday" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 </p>
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=chimpiriudaykiran&show_icons=true&locale=en&layout=compact" alt="chimpiriudaykiran" /></p>
 
 ---
 
