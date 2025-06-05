@@ -107,8 +107,8 @@
 <p align="left">
   <a href="https://linkedin.com/in/uday-kiran-chimpiri" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/chimpiriudaykiran" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
-  <a href="https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl" target="_blank"><img align="center" src="https://img.icons8.com/?size=100&id=drPiDBy9kkJ3&format=png&color=000000" alt="Google Scholar" height="30" width="30" /></a>
-  <a href="https://codewithuday.co" target="_blank"><img align="center" src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio" height="30" width="30" /></a>
+  <a href="https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl" target="_blank"><img align="center" src="https://img.icons8.com/?size=100&id=drPiDBy9kkJ3&format=png&color=000000" alt="Google Scholar" height="50" width="50" /></a>
+  <a href="https://codewithuday.co" target="_blank"><img align="center" src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio" height="50" width="50" /></a>
 
 <a href="https://kaggle.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/darlinguday" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="darlinguday" height="30" width="40" /></a>
