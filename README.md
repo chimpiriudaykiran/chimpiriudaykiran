@@ -45,26 +45,25 @@
 #### 🧠 AI & ML
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat&logo=huggingface&logoColor=black)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 
 #### 📊 Data & Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoft-azure)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ---
 
-### 🔍 Noteworthy Work
+### 🔍 Projects & Research
 
 | Project | Tech Stack | Details |
 |--------|------------|---------|
-| 🦮 Accessible Charts | Flask, JS, OpenAI | Audio-based data viz for visually impaired users |
-| 🍽️ AI Food Guide | TensorFlow, OpenAI, Flask | Recommends food based on health profile |
-| 📰 Article Summarizer | HuggingFace, Flask | Auto summarization with transformers |
-| 📈 COVID Insights | Pandas, Matplotlib, Scikit-learn | Regression + trend analytics on pandemic data |
 
 ---
 
@@ -84,6 +83,7 @@
 - 🥇 **Web Accessibility Challenge – Judges’ Award** for data accessibility innovation
 - 🏆 **Capgemini "Out of the Box" Award** for productivity-boosting internal tools
 - 📜 Published on [Google Scholar](https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl)
+- 📚 Certified in Azure Fundamentals & Agile Software Dev
 
 ---
 
