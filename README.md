@@ -75,8 +75,8 @@
 
 ### 📊 Stats & Progress
 
-![Stats]("https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark")
-![Streak](<img src="https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark" width="600"/>)
+![Stats](https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark)
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark)
 
 ---
 
