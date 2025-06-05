@@ -25,7 +25,7 @@
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![ABAP](https://img.shields.io/badge/SAP_ABAP-0FAAFF?style=flat&logo=sap)
+![ABAP](https://img.shields.io/badge/SAP_ABAP-0FAAFF?style=flat&logo=SAP)
 
 #### 🌐 Web & UI
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
