@@ -99,6 +99,9 @@
 
 ---
 
+## 🏆 View my verified badges
+[![Azure Fundamentals](https://images.credly.com/images/b18df9ce-0f86-443c-bd5e-65bc18d5f336/converted20250605-27-7t09cp.png)]
+
 ### 📬 Let’s Connect
 
 - 🌍 [Website](https://codewithuday.co)
