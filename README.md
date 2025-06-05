@@ -107,21 +107,14 @@
 <p align="left">
   <a href="https://linkedin.com/in/uday-kiran-chimpiri" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
   <a href="https://www.leetcode.com/chimpiriudaykiran" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="30" width="40" /></a>
-  <a href="https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl" target="_blank"><img align="center" src="https://img.icons8.com/external-tal-revivo-filled-tal-revivo/32/external-google-scholar-a-freely-accessible-web-search-engine-that-indexes-the-full-text-or-metadata-logo-filled-tal-revivo.png" alt="Google Scholar" height="30" width="30" /></a>
+  <a href="https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl" target="_blank"><img align="center" src="https://img.icons8.com/?size=100&id=drPiDBy9kkJ3&format=png&color=000000" alt="Google Scholar" height="30" width="30" /></a>
   <a href="https://codewithuday.co" target="_blank"><img align="center" src="https://img.icons8.com/fluency/48/domain.png" alt="Portfolio" height="30" width="30" /></a>
-</p>
 
----
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 <a href="https://kaggle.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
-<a href="https://instagram.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/darlinguday" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="darlinguday" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
+<a href="https://instagram.com/udaykiranchimpiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="udaykiranchimpiri" height="30" width="40" /></a>
 </p>
-
 ---
+
 
 🎯 *I build for impact — one accessible, intelligent solution at a time.*
