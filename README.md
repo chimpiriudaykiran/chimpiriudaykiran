@@ -76,10 +76,10 @@
 ### 📊 Stats & Progress
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark" width="300"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark" width="600"/>
 </p>
 <p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark" width="300"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark" width="600"/>
 </p>
 
 ---
