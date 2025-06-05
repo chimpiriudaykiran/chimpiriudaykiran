@@ -82,8 +82,7 @@
 
 ### 🧠 LeetCode Grind
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/udaykiranchimpiri?theme=transparent&font=Acme&ext=activity)
-
+![LeetCode Stats](https://leetcard.jacoblin.cool/udaykiranchimpiri?theme=dark&ext=activity)
 ---
 
 ### 🏅 Milestones & Recognition
