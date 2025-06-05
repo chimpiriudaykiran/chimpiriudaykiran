@@ -77,13 +77,13 @@
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark)
 ![Streak](https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs?username=chimpiriudaykiran&show_icons=true&locale=en&layout=compact&theme=dark)
 
 ---
 
 ### 🧠 LeetCode
 
 ![LeetCode Stats](https://leetcard.jacoblin.cool/udaykiranchimpiri?theme=dark&font=Acme&ext=heatmap)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs?username=chimpiriudaykiran&show_icons=true&locale=en&layout=compact)
 
 ---
 
