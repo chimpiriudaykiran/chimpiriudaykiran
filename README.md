@@ -3,14 +3,14 @@
   <img src="https://komarev.com/ghpvc/?username=chimpiriudaykiran&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 <h3 align="center">
-  Software Engineer | AI/ML Enthusiast | SAP ABAP Developer | MSCS @ UNT | Bridging SAP with Modern AI
+  Software Engineer | AI/ML Engineer | GenAI Enthusiast | SAP ABAP Developer | MSCS @ UNT | Full-Stack Python • React • Cloud
 </h3>
 
 ---
 
 ### 💡 Who Am I?
 
-- 🎓 Grad student at University of North Texas, pursuing MS in CS (Class of 2025)
+- 🎓 Master's in Computer Science at University of North Texas, in Computer Science (Class of 2025)
 - 💼 4+ years in SAP ABAP and full-stack development at Capgemini & Accenture
 - 🧠 Researching accessible tech & GenAI — published work on audio-based data viz
 - 🚀 Currently exploring GenAI, ML Ops, FastAPI, and cloud-native architectures
