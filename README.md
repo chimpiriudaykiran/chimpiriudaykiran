@@ -84,6 +84,12 @@
 
 ---
 
+### 🧠 LeetCode Grind
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/udaykiranchimpiri)
+
+---
+
 ### 🏅 Milestones & Recognition
 
 - 🥇 **Web Accessibility Challenge – Judges’ Award** for data accessibility innovation
