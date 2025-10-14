@@ -2,17 +2,18 @@ import {
   SiPython, SiCplusplus, SiJavascript, SiHtml5, SiCss3,
   SiReact, SiNodedotjs, SiExpress, SiDjango, SiFlask, SiSpringboot,
   SiTensorflow, SiPytorch, SiScikitlearn, SiPandas, SiNumpy, SiApachespark, SiJquery,
-  SiPostgresql, SiMongodb, SiFirebase, SiAzuredevops, SiGooglecloud,
-  SiDocker, SiKubernetes, SiJenkins, SiGit, SiTableau, SiPowerbi,
-  SiVisualstudiocode, SiEclipseide, SiApachehive, SiMysql, SiMicrosoftsqlserver,
+  SiPostgresql, SiMongodb, SiFirebase, SiGooglecloud,
+  SiDocker, SiKubernetes, SiJenkins, SiGit, SiTableau, SiPowers,
+  SiEclipseide, SiApachehive, SiMysql,
   SiJirasoftware
 } from "react-icons/si";
 
-import { FaDatabase, FaUserGraduate, FaJava, FaAws } from "react-icons/fa";
+import { FaDatabase, FaUserGraduate, FaJava, FaAws, FaCode } from "react-icons/fa";
 import { VscAzure } from "react-icons/vsc";
 import { AiOutlineTool } from "react-icons/ai";
 import { TbBrandCpp } from "react-icons/tb";
 import { IconType } from "react-icons";
+import { JSX } from "react";
 
 const skillMap: Record<string, IconType> = {
   "Python": SiPython,
@@ -38,7 +39,7 @@ const skillMap: Record<string, IconType> = {
   "Spark": SiApachespark,
   "jQuery": SiJquery,
 
-  "SQL": SiMicrosoftsqlserver,
+  "SQL": FaDatabase,
   "MySQL": SiMysql,
   "PostgreSQL": SiPostgresql,
   "MongoDB": SiMongodb,
@@ -57,10 +58,10 @@ const skillMap: Record<string, IconType> = {
 
   "JIRA": SiJirasoftware,
   "Postman": AiOutlineTool,
-  "VS Code": SiVisualstudiocode,
+  "VS Code": FaCode,
   "Eclipse": SiEclipseide,
   "Tableau": SiTableau,
-  "Power BI": SiPowerbi,
+  "Power BI": SiPowers,
   "Matplotlib": AiOutlineTool,
   "Plotly": AiOutlineTool,
 

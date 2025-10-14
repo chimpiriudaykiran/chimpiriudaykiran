@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { portfolioData, Skill } from "@/data/portfolioData";
+import { getSkillIcon } from "@/components/getSkillIcon";
 
 const About: React.FC = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -40,8 +41,8 @@ const About: React.FC = () => {
                 <h3 className="card-title text-primary">{skill.category}</h3>
                 <div className="flex flex-wrap gap-2">
                   {skill.items.map((item: string) => (
-                    <span key={item} className="badge badge-outline">
-                      {item}
+                    <span key={item} className="badge badge-outline flex items-center gap-1">
+                      {getSkillIcon(item)} {item}
                     </span>
                   ))}
                 </div>
