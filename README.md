@@ -141,22 +141,22 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark&hide_border=true" height="165"/>
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=chimpiriudaykiran&show_icons=true&theme=dark&hide_border=true" height="165"/> -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=chimpiriudaykiran&theme=dark&hide_border=true" height="165"/>
 </p>
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=chimpiriudaykiran&show_icons=true&locale=en&layout=compact&theme=dark&hide_border=true"/>
-</p>
+</p> -->
 
 ---
 
-## 🏆 GitHub Trophies
+<!-- ## 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=chimpiriudaykiran&theme=onestar&no-frame=true&row=1"/>
 </p>
 
----
+--- -->
 
 ## 🧠 LeetCode
 
@@ -168,11 +168,11 @@
 
 ## 📜 Certifications & Badges
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://learn.microsoft.com/api/credentials/share/en-us/udaykiran-8996/48A3CF67F7D73ED7?sharingId=9D563D4745421FA8">
     <img src="https://images.credly.com/images/b18df9ce-0f86-443c-bd5e-65bc18d5f336/converted20250605-27-7t09cp.png" width="120" alt="Azure Fundamentals Badge"/>
   </a>
-</p>
+</p> -->
 
 [![Azure Fundamentals](https://img.shields.io/badge/Azure_Fundamentals-0078D4?style=flat&logo=microsoft-azure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/udaykiran-8996/48A3CF67F7D73ED7?sharingId=9D563D4745421FA8)
 [![Agile Development](https://img.shields.io/badge/Agile_Software_Development-0052CC?style=flat&logo=coursera&logoColor=white)](https://coursera.org/share/908706f2efdb62828110a51027a6d8ca)
