@@ -8,6 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link rel="icon" href="./favicon.png"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<!-- In <head> -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>emailjs.init("pfgI4EcWLKSjb9Djb");</script>
+
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -280,7 +284,7 @@ footer a{color:var(--cyan-bright);text-decoration:none}
     <p class="hero-summary">Software Engineer with <strong>5+ years</strong> building enterprise-scale systems at Capgemini & Accenture. Expert in <strong>Python, Gen AI & LLM fine-tuning</strong>, and full-stack development. MS Computer Science with a <strong>3.9 GPA</strong>.</p>
     <div class="hero-actions">
       <a href="#experience" class="btn-primary">View Experience</a>
-      <a href="#projects" class="btn-ghost">View Projects →</a>
+      <a href="./portfolio/public/Resume.pdf" class="btn-ghost">Resume →</a>
       <!-- <a href="https://udaychimpiri.dev" target="_blank" class="btn-ghost">Portfolio site →</a> -->
     </div>
   </div>
@@ -727,12 +731,39 @@ document.querySelectorAll('.filter-btn').forEach(btn=>{
   });
 });
 
-// FORM
-function handleForm(e){
+async function handleForm(e) {
   e.preventDefault();
-  const btn=e.target.querySelector('.f-btn');
-  btn.textContent='Sent! ✓';btn.style.background='linear-gradient(135deg,#064e3b,#065f46)';
-  setTimeout(()=>{btn.textContent='Send Message →';btn.style.background='';e.target.reset();},3000);
+  const btn = e.target.querySelector('.f-btn');
+  const form = e.target;
+
+  // Basic validation
+  const name = form.querySelector('input[type="text"]').value.trim();
+  const email = form.querySelector('input[type="email"]').value.trim();
+  const message = form.querySelector('.f-area').value.trim();
+
+  if (!name || !email || !message) {
+    btn.textContent = 'Fill all fields!';
+    btn.style.background = 'linear-gradient(135deg,#7f1d1d,#991b1b)';
+    setTimeout(() => { btn.textContent = 'Send Message →'; btn.style.background = ''; }, 2000);
+    return;
+  }
+
+  // Disable button during send
+  btn.textContent = 'Sending...';
+  btn.disabled = true;
+
+  try {
+    await emailjs.send("service_z55khua", "template_3rb395r", { name, email, message });
+    btn.textContent = 'Sent! ✓';
+    btn.style.background = 'linear-gradient(135deg,#064e3b,#065f46)';
+    form.reset();
+  } catch (err) {
+    btn.textContent = 'Failed. Try again.';
+    btn.style.background = 'linear-gradient(135deg,#7f1d1d,#991b1b)';
+  } finally {
+    btn.disabled = false;
+    setTimeout(() => { btn.textContent = 'Send Message →'; btn.style.background = ''; }, 3000);
+  }
 }
 
 // ACTIVE NAV
