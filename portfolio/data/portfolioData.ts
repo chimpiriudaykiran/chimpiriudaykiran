@@ -6,6 +6,7 @@ export interface Skill {
 export interface Experience {
     role: string;
     company: string;
+    client?: string;
     location: string;
     period: string;
     linkedin: string;
@@ -31,16 +32,30 @@ export interface Project {
     contribution: string;
 }
 
+export interface OtherProject {
+    title: string;
+    year: string;
+    tech: string[];
+    github?: string;
+}
+
 export interface Publication {
     title: string;
+    venue?: string;
     description: string;
     link: string;
 }
 
+export interface Currently {
+    building: string;
+    learning: string;
+    openTo: string;
+}
+
 export const portfolioData = {
     name: "Uday Kiran Chimpiri",
-    title: "Full Stack Developer",
-    intro: "Crafting scalable, user-focused solutions with a passion for innovation and technology.",
+    title: "Software Engineer",
+    intro: "Software Engineer with 5 years of enterprise backend experience, MS in CS (3.9 GPA). Building production LLM applications: RAG pipelines, agentic browser automations, and a full-stack AI resume tool.",
     email: "udaykiranchimpiri@gmail.com",
     phone: "(940) 597-8960",
     linkedin: "https://linkedin.com/in/uday-kiran-chimpiri",
@@ -48,56 +63,60 @@ export const portfolioData = {
     website: "https://codewithuday.co/",
     googleScholar: "https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl",
     about:
-        "Highly disciplined and motivated Master's student in Computer Science at the University of North Texas, with 4.5 years of professional experience in software development, problem-solving, and cross-functional collaboration. Proven track record of delivering scalable, user-focused solutions. Passionate about leveraging JavaScript frameworks, Python, cloud platforms, and machine learning to drive innovation. A continuous learner eager to apply technical skills and creativity to impactful projects.",
+        "Software engineer with 5 years of enterprise experience at Capgemini and Accenture, specializing in SAP ABAP and enterprise backend systems. Completing an MS in Computer Science at the University of North Texas (GPA 3.88, May 2025). My recent focus is building production LLM applications — RAG pipelines, Chrome extension automation for ATS forms, and AI-powered tools for job seekers. Open to AI/LLM Engineer, Full-Stack, and Backend roles in the US.",
+    currently: {
+        building: "JobCopilot — a multi-agent job search system — and a domain-specific LLM fine-tuning experiment.",
+        learning: "LangGraph and production LLM evaluation harnesses.",
+        openTo: "AI/LLM Engineer, Full-Stack, and Backend roles in the US.",
+    } as Currently,
     skills: [
-        { category: "Programming Languages", items: ["Python", "Java", "C", "C++", "JavaScript", "SAP ABAP", "HTML", "CSS"] },
-        { category: "Frameworks & Libraries", items: ["React.js", "Node.js", "Express.js", "Django", "Flask", "Spring Boot", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "Spark", "jQuery", "GenAI", "LLMs", "NLP"] },
-        { category: "Databases & Big Data", items: ["SQL", "MySQL", "PostgreSQL", "MongoDB", "Firebase", "Hadoop", "Hive"] },
-        { category: "Cloud & DevOps", items: ["AWS", "Azure", "Google Cloud Platform (GCP)", "Docker", "Kubernetes", "Jenkins", "Git", "CI/CD"] },
-        { category: "Tools & Visualization", items: ["JIRA", "Postman", "VS Code", "Eclipse", "Tableau", "Power BI", "Matplotlib", "Plotly"] },
+        { category: "Languages", items: ["Python", "JavaScript", "TypeScript", "Java", "C", "C++", "SAP ABAP", "HTML", "CSS"] },
+        { category: "AI / ML / LLMs", items: ["LangChain", "LangGraph", "RAG", "OpenAI API", "NLP", "TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy"] },
+        { category: "Web & Backend", items: ["React.js", "Node.js", "Express.js", "FastAPI", "Django", "Flask", "REST APIs", "Spring Boot"] },
+        { category: "Databases", items: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "SQL", "Hadoop", "Hive"] },
+        { category: "Cloud & DevOps", items: ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Jenkins", "Git", "CI/CD"] },
+        { category: "Tools", items: ["JIRA", "Postman", "Tableau", "Power BI", "Matplotlib", "Plotly", "VS Code"] },
         { category: "Certifications", items: ["Agile Software Development", "Microsoft Azure Fundamentals"] },
-        { category: "Soft Skills", items: ["Quick Learner", "Strong Decision Maker", "Complex Problem Solver", "Innovative", "Flexible"] },
     ] as Skill[],
     experience: [
         {
-            role: "Teaching Assistant (Software Engineering)",
+            role: "Teaching Assistant — Software Engineering",
             company: "University of North Texas",
             location: "Denton, TX",
             period: "Aug 2024 – Present",
             linkedin: "https://www.linkedin.com/school/university-of-north-texas/",
             responsibilities: [
                 "Mentored 50+ students in software engineering coursework, improving average project scores by 20%.",
-                "Acted as Scrum Master for undergraduate capstone projects, guiding teams in Agile methodologies.",
-                "Conducted workshops on Agile, Git, and debugging, enhancing students’ technical proficiency.",
-                "Provided one-on-one support for React.js, Node.js, and SQL project development.",
-                "Collaborated with faculty to develop course materials aligned with industry standards.",
+                "Served as Scrum Master for undergraduate capstone teams, guiding them through Agile delivery.",
+                "Conducted workshops on Git, debugging, React.js, Node.js, and SQL.",
+                "Collaborated with faculty to develop and refine course materials aligned with industry standards.",
             ],
         },
         {
-            role: "App Development Senior Analyst",
+            role: "Application Development Senior Analyst",
             company: "Accenture Solutions Pvt Ltd",
+            client: "Solvay",
             location: "India",
             period: "Jan 2023 – Aug 2023",
             linkedin: "https://www.linkedin.com/company/accenture/",
             responsibilities: [
-                "Led a team to deliver 4 projects on time, achieving a 97% increase in client satisfaction.",
-                "Integrated GCP and SAP systems, reducing processing time by 50% and improving reliability by 20%.",
-                "Developed and debugged SAP ABAP solutions using Agile, ensuring high-quality delivery.",
-                "Mentored junior developers, boosting team productivity and code quality by 25%.",
+                "Developed SAP ABAP solutions for Solvay, integrating GCP and SAP systems to automate cross-system data workflows.",
+                "Led project delivery across multiple workstreams using Agile methodologies, coordinating across functional teams.",
+                "Mentored junior developers on SAP ABAP best practices and conducted regular code reviews.",
             ],
         },
         {
-            role: "SAP ABAP Developer & Techno-Functional Lead",
+            role: "Associate Consultant — SAP ABAP",
             company: "Capgemini Technology Services",
+            client: "Boehringer Ingelheim",
             location: "India",
             period: "Dec 2018 – Dec 2022",
             linkedin: "https://www.linkedin.com/company/capgemini/",
             responsibilities: [
-                "Led a team of 10 professionals, overseeing complex SAP ABAP projects with 97%+ KPI achievement.",
-                "Optimized SAP ABAP code, reducing errors by 40% and ensuring zero production regressions.",
-                "Developed a code quality evaluation tool, reducing rework by 30% and earning business unit recognition.",
-                "Conducted quality assurance on 150+ code modules, decreasing bug reports by 90%.",
-                "Mentored 4-5 young developers, fostering a collaborative and high-performing team environment.",
+                "Developed and maintained SAP ABAP solutions (Reports, BAPI, ALE/IDoc, Workflows) for Boehringer Ingelheim's supply chain processes.",
+                "Built a code quality evaluation tool that reduced manual rework and was recognized at the business unit level.",
+                "Conducted code reviews across 150+ modules and mentored junior engineers.",
+                "Progressed from Analyst to Senior Analyst to Associate Consultant over 4 years.",
             ],
         },
     ] as Experience[],
@@ -121,60 +140,49 @@ export const portfolioData = {
     ] as Education[],
     projects: [
         {
-            title: "Data Visualization Web App for Blind",
+            title: "Resume Architect",
             year: "2024",
             github: "",
             live: "",
-            description: "An accessible web app providing audio descriptions of data visualizations for visually impaired users.",
-            tech: ["React.js", "Node.js", "Firebase", "NLP"],
-            contribution: "Designed and developed the frontend and audio integration system.",
+            description: "A full-stack AI resume tool with a Chrome extension that auto-fills ATS forms (Workday, Greenhouse) using RAG pipelines and agentic browser automation. Tailors resume content to job descriptions and submits applications in fewer steps.",
+            tech: ["Python", "LangChain", "RAG", "Chrome Extension", "React.js", "FastAPI"],
+            contribution: "Designed and built end-to-end: RAG pipeline, Chrome extension content scripts, and full-stack web application.",
         },
         {
-            title: "Accident Severity Prediction Model",
-            year: "2023",
+            title: "ArguLex",
+            year: "2024",
             github: "",
             live: "",
-            description: "A machine learning model predicting accident severity using a comprehensive dataset.",
-            tech: ["Python", "TensorFlow", "Scikit-learn", "Pandas"],
-            contribution: "Built and evaluated ML models for optimal performance.",
+            description: "An AI-powered argumentation assistant that helps users construct, analyze, and counter legal and policy arguments using LLMs.",
+            tech: ["Python", "LangChain", "OpenAI API", "React.js", "FastAPI"],
+            contribution: "Built the argument generation pipeline and full-stack interface.",
         },
         {
-            title: "Rest-Assured-Restrooms Locator",
-            year: "2023",
+            title: "Beyond Sight — Data Visualization for the Visually Impaired",
+            year: "2024",
             github: "",
             live: "",
-            description: "A location-based web app to find accessible public restrooms nearby.",
-            tech: ["React.js", "Node.js", "MongoDB", "Google Maps API"],
-            contribution: "Developed the frontend UI and integrated location services.",
-        },
-        {
-            title: "Article Summarizer using NLP",
-            year: "2022",
-            github: "",
-            live: "",
-            description: "A tool using NLP to generate short summaries of lengthy articles.",
-            tech: ["Python", "NLP", "Flask"],
-            contribution: "Implemented NLP algorithms and built the backend API.",
-        },
-        {
-            title: "Stock Prediction using ML",
-            year: "2021",
-            github: "",
-            live: "",
-            description: "A machine learning system predicting stock prices with live Yahoo Finance data.",
-            tech: ["Python", "TensorFlow", "Yahoo Finance API"],
-            contribution: "Developed the ML model and integrated live data feeds.",
+            description: "An accessible web application that converts data visualizations into audio descriptions for visually impaired users. Awarded at the W4A 2024 conference and published at ACM.",
+            tech: ["React.js", "Node.js", "Firebase", "NLP", "Web Audio API"],
+            contribution: "Designed and developed the frontend, audio integration system, and accessibility pipeline.",
         },
     ] as Project[],
+    otherProjects: [
+        { title: "Accident Severity Prediction", year: "2023", tech: ["Python", "TensorFlow", "Scikit-learn", "Pandas"], github: "" },
+        { title: "Rest-Assured-Restrooms Locator", year: "2023", tech: ["React.js", "Node.js", "MongoDB", "Google Maps API"], github: "" },
+        { title: "Article Summarizer (NLP)", year: "2022", tech: ["Python", "NLP", "Flask"], github: "" },
+        { title: "Stock Prediction ML", year: "2021", tech: ["Python", "TensorFlow", "Yahoo Finance API"], github: "" },
+    ] as OtherProject[],
     publications: [
         {
             title: "Beyond Sight: Empowering Visually Impaired Users with Audible Graphs",
-            description: "A research paper on an innovative tool making data visualizations accessible via audio descriptions.",
+            venue: "W4A '24 — ACM Web for All Conference",
+            description: "Research paper on an innovative tool making data visualizations accessible via audio descriptions for visually impaired users.",
             link: "https://scholar.google.com/citations?user=7DXlEEIAAAAJ&hl",
         },
     ] as Publication[],
     awards: [
-        "Web Accessibility Challenge Judges Award (2024) - Data Visualization Tool for Visually Impaired",
-        "Out of the Box Award (Q2-2021) - Capgemini Technology Services",
+        "Web Accessibility Challenge — Judges' Award (W4A 2024) — Data Visualization Tool for Visually Impaired",
+        "Out of the Box Award (Q2 2021) — Capgemini Technology Services",
     ] as string[],
 };

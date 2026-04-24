@@ -26,6 +26,9 @@ const Experience: React.FC = () => (
                         <div className="card-body">
                             <h3 className="card-title text-primary">{exp.role}</h3>
                             <p className="text-lg">{exp.company} - {exp.location}</p>
+                            {exp.client && (
+                                <p className="text-sm font-medium text-secondary">Client: {exp.client}</p>
+                            )}
                             <p className="text-sm text-gray-500">{exp.period}</p>
                             <a href={exp.linkedin} target="_blank" className="link link-primary">Company LinkedIn</a>
                             <ul className="list-disc ml-5 mt-2">
